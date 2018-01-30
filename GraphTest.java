@@ -10,27 +10,11 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-import Graphs.GraphTable;
-import numbers.test.Ellipse;
-
-public class NumbersTest {
+//Not needet if they are in one package
+//import Graphs.GraphTable;
+public class GtaphTest {
    
     public static void main(String[] args) {
-	/*BigInteger num=new BigInteger("1163062543");   //10^6 (milion)->  19097003 -> 3:21
-						//2*10^6 -> 36218899 -> 3:29
-						//3*10^6 -> 53833913 -> 3:32
-						//10^7 (10*milion)-> 183554971 -> 26:03
-						//2*10^7 -> 377859481 -> 39:38
-						//(4+?)*10^7 -> 749662411
-						//(5+?)*10^7 -> 955273987
-						//(6+?)*10^7 -> 1163062543
-						
-	
-	for(int i=(int)Math.round(Math.pow(10, 7));i>0;i--){
-	    num=num.nextProbablePrime();
-	    System.out.println(i+" : "+num.toString());
-	}
-	*/
 	String[] map={"one","two","three","four","five","six"};
 	GraphTable<String> grp=new GraphTable(map);
 	
