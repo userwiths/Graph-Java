@@ -1,17 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Graphs;
 
-import numbers.test.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author root
+/*
+ * This is an optional interface that
+ * I use to write different data structures with hierarchycal structure.
+ * Graph, Tree, HashTable ....
+ * It has the methods that for me are must have for each such structure.
  */
 public interface Hierarchy<T> {
     
@@ -41,7 +37,10 @@ public interface Hierarchy<T> {
      public boolean AreConnected(T src,T dst);
      public boolean AreConnected(T src,T dst,int depth);
      
-     //	Path/Connection	Finding.    //
+     /*
+      * Path/Connection	Finding.
+      * Mostly used in graphs.
+      * Can be omited for other data structures.    
      public List<T> FindPath(T src,T dst);
      public List<T> FindPath(T src,T dst,int depth);
      public double GetWeight(T src,T dst);
@@ -49,8 +48,8 @@ public interface Hierarchy<T> {
      public List<T> FindLithestPath(T src,T dst);
      public List<T> FindHeaviestPath(T src,T dst);
      //	Minimum	Spanning    Tree -> Used for graph.
-     //public List<T> FindMST(T src,T dst);
-     
+     public List<T> FindMST(T src,T dst);
+     */
      //	Debugging option	//
      public void PrintGraph();
 }
