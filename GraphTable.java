@@ -6,8 +6,8 @@ import java.util.Arrays;
 import java.util.List;
 import Graphs.Hierarchy;
 
-
-public class GraphTable<T> implements Hierarchy<T>{
+//Implementing Hierarchy is optional.
+public class GraphTable<T> /*implements Hierarchy<T>*/{
     private double[][] Table;
     private List<T> Map;
     private int Elements;
