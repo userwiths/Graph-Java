@@ -1,5 +1,8 @@
 Implementation of a graph in java.
 
+Take a look at GraphTest.java for a ready example.
+Take a look at GraphTable.java if you want the real programming thing.
+
 Creating a Graph with nodes of type [Type] and passes the refference to [name].
 GraphTable<[Type]> [name] = new GraphTable<[Type]>();
 
