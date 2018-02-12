@@ -1,14 +1,6 @@
 package Graphs;
 
-import numbers.test.*;
-import java.io.Console;
-import java.io.PrintStream;
-import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 //Not needet if they are in one package
 //import Graphs.GraphTable;
